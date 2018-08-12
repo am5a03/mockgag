@@ -15,6 +15,12 @@ buildscript {
     }
 }
 
+ext {
+    archLifecycleVersion = "1.1.1"
+    navigationVersion = "1.0.0-alpha05"
+    roomVersion = "1.1.1"
+}
+
 allprojects {
     repositories {
         google()
