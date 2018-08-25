@@ -42,6 +42,7 @@ dependencies {
 
     // optional - RxJava support for Room
     implementation "android.arch.persistence.room:rxjava2:$rootProject.roomVersion"
+    implementation project(":model")
 
 
 }
