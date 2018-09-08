@@ -7,7 +7,7 @@ import javax.inject.Inject
 
 class MainActivity : DaggerAppCompatActivity() {
 
-    @Inject lateinit var viewModelFactory: ViewModelFactory
+//    @Inject lateinit var viewModelFactory: ViewModelFactory
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
